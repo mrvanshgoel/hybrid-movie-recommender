@@ -25,3 +25,5 @@ Thumbs.db
 # *.zip
 ml-32m/
 *.csv
+Presentation/
+*.ipynb
