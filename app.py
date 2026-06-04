@@ -356,9 +356,10 @@ def load_data():
 
     def clean_display_title(title):
         title = str(title).strip()
+        # Remove leading and trailing quotes, hashes, and whitespace
+        title = re.sub(r'^["#\s]+|["#\s]+$', '', title)
+        # Replace multiple quotes with a single quote in the middle
         title = re.sub(r'"+', '"', title)
-        if title.startswith('"') and title.endswith('"'):
-            title = title[1:-1]
         return title
 
     movies['display_title'] = movies['title'].apply(clean_display_title)
