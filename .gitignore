@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Node modules
+node_modules/
+package-lock.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# If you want to exclude any specific large dataset files in the future (though we are keeping .pkl and .npz for now)
+# *.csv
+# *.zip
+ml-32m/
+*.csv
