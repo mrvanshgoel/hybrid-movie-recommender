@@ -1,4 +1,4 @@
-# 🎬 Hybrid Movie Recommendation Engine
+# Hybrid Movie Recommendation Engine
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
@@ -8,9 +8,11 @@
 
 A state-of-the-art Hybrid Movie Recommendation Engine built for a BCA Machine Learning final project. This engine seamlessly blends **Content-Based NLP** and **PySpark Collaborative Filtering** to deliver highly accurate movie suggestions across both Hollywood and Bollywood datasets.
 
+Try Here: https://vansh-movie-recommender.streamlit.app/
+
 ---
 
-## 🌟 Key Features
+## Key Features
 
 * **Massive Index:** Over 89,000 global movies indexed, including a dedicated injection of 1,600+ regional Bollywood titles.
 * **Hybrid Algorithm:** Combines TF-IDF vectorization (Content-Based) and Alternating Least Squares (ALS - Collaborative Filtering).
@@ -20,7 +22,7 @@ A state-of-the-art Hybrid Movie Recommendation Engine built for a BCA Machine Le
 
 ---
 
-## 🧠 Machine Learning Architecture
+## Machine Learning Architecture
 
 ### 1. Data Sources (The "Golden Bridge")
 * **MovieLens 32M:** Provided the backbone of 32 million user rating events for Collaborative Filtering.
@@ -42,7 +44,7 @@ The final recommendation score for a given movie query is calculated using a wei
 
 ---
 
-## 🚀 Running the Project Locally
+## Running the Project Locally
 
 ### Prerequisites
 Make sure you have Python 3.9+ installed. You will also need Git and Git LFS if you plan on modifying the dataset.
@@ -67,6 +69,6 @@ Make sure you have Python 3.9+ installed. You will also need Git and Git LFS if 
 
 ---
 
-## 👨‍💻 Developers
-**Vansh Goel** (24SCSE1720002) & **Shiva Tyagi**
+## 👨‍💻 Developed by:
+**Vansh Goel**
 *BCA Machine Learning Course Project*
